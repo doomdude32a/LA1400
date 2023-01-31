@@ -1,6 +1,6 @@
 # LA1400
 
-```
+```java
 
 package AngelAngelov;
 import robocode.*;
@@ -11,11 +11,11 @@ public class Bouncer extends JuniorRobot
     int players = others;
 	public void run() {
 	
-		setColors(white, red, white, gray, white);
-        int players = others;
+            setColors(white, red, white, gray, white);
+            int players = others;
 	    //the players alive determines the movment 
-		while(true) {
-		   if (players > 5){
+           while(true) {
+           if (players > 5){
            bounceMode();
           }else if(players < 5) {
            crazymode();
